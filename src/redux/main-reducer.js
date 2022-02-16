@@ -2,7 +2,6 @@ import { chuckAPI } from "../API/api";
 
 const SET__LOGO = "SET__LOGO";
 const SET_CATEGORIES = "SET_CATEGORIES";
-const SET__RANDOM__JOKE = "SET__RANDOM__JOKE";
 const SET__JOKE = "SET__JOKE";
 let initialState = {
   logo: null,
@@ -18,9 +17,7 @@ const MainReducer = (state = initialState, action) => {
     case SET_CATEGORIES: {
       return { ...state, categories: action.categories };
     }
-    case SET__RANDOM__JOKE: {
-      return { ...state, jokeText: action.jokeText };
-    }
+
     case SET__JOKE: {
       return { ...state, jokeText: action.jokeText };
     }
@@ -39,11 +36,6 @@ const setLogo = (logo) => ({
 const setCategories = (categories) => ({
   type: SET_CATEGORIES,
   categories,
-});
-
-const setRandomJoke = (jokeText) => ({
-  type: SET__RANDOM__JOKE,
-  jokeText,
 });
 
 const setJoke = (jokeText) => ({
@@ -69,7 +61,7 @@ export const getCategories = () => {
 export const getRandomJokeText = () => {
   return async (dispatch) => {
     let response = await chuckAPI.getRandom();
-    dispatch(setRandomJoke(response.data.value));
+    dispatch(setJoke(response.data.value));
   };
 };
 
