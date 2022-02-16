@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ChuckNorris/static/css/main.300409b4.css",
+    "main.js": "/ChuckNorris/static/js/main.6f0f9086.js",
+    "static/media/ChuckImage.svg": "/ChuckNorris/static/media/ChuckImage.abe265badc2ad13c2a16567976c800e7.svg",
+    "static/media/Raleway-SemiBold.ttf": "/ChuckNorris/static/media/Raleway-SemiBold.de2579e37da1f4692490.ttf",
+    "static/media/Raleway-Bold.ttf": "/ChuckNorris/static/media/Raleway-Bold.2d5ba4784af03c9906b7.ttf",
+    "static/media/cursor.svg": "/ChuckNorris/static/media/cursor.2b0fc0188231897bf545.svg",
+    "index.html": "/ChuckNorris/index.html",
+    "main.300409b4.css.map": "/ChuckNorris/static/css/main.300409b4.css.map",
+    "main.6f0f9086.js.map": "/ChuckNorris/static/js/main.6f0f9086.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.300409b4.css",
+    "static/js/main.6f0f9086.js"
+  ]
+}
