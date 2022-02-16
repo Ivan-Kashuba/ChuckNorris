@@ -1,0 +1,19 @@
+.header {
+  background-color: #422ed4;
+  height: 59px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 160px;
+  width: 43px;
+  height: 43px;
+}
+.headerText {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 10px;
+  color: #fff;
+}

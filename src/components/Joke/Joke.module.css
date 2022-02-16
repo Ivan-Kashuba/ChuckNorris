@@ -1,0 +1,31 @@
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-top: 145px;
+  position: relative;
+}
+
+.content {
+  background-color: #422ed4;
+  width: 1120px;
+  height: 162px;
+  box-shadow: 0px 100px 80px rgba(80, 76, 103, 0.07),
+    0px 0px 10.0172px rgba(80, 76, 103, 0.035);
+  border-radius: 25px;
+}
+
+.chuckImage {
+  position: absolute;
+  right: 24px;
+  top: -153px;
+  z-index: -1;
+}
+
+.jokeText {
+  font-family: "Raleway600", sans-serif;
+  padding: 24px;
+  color: #fff;
+  line-height: 30px;
+  font-style: normal;
+  font-size: 20px;
+}
