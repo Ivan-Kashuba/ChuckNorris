@@ -5,11 +5,13 @@ import JokeContainer from "./components/Joke/JokeContainer";
 
 function App() {
   return (
-    <div className="appContainer">
+    <>
       <HeaderContainer />
-      <CategoriesContainer />
-      <JokeContainer />
-    </div>
+      <div className="appContainer">
+        <CategoriesContainer />
+        <JokeContainer />
+      </div>
+    </>
   );
 }
 
