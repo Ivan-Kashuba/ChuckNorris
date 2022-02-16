@@ -5,7 +5,15 @@ const instance = axios.create({
 });
 
 export const chuckAPI = {
-  getLogo() {
-    return instance.get("random").then((response) => response.data);
+  getRandom() {
+    return instance.get("random").then((response) => response);
+  },
+  getCategories() {
+    return instance.get("categories").then((response) => response.data);
+  },
+  getJokeText(category) {
+    return instance
+      .get(`random?category=${category}`)
+      .then((response) => response.data.value);
   },
 };

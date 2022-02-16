@@ -1,14 +1,14 @@
-import Header from "./components/Header/Header";
+import HeaderContainer from "./components/Header/HeaderContainer";
 import "./App.css";
-import Categories from "./components/Categories/Categories";
-import Joke from "./components/Joke/Joke";
+import CategoriesContainer from "./components/Categories/CategoriesContainer";
+import JokeContainer from "./components/Joke/JokeContainer";
 
 function App() {
   return (
     <div className="appContainer">
-      <Header />
-      <Categories />
-      <Joke />
+      <HeaderContainer />
+      <CategoriesContainer />
+      <JokeContainer />
     </div>
   );
 }
