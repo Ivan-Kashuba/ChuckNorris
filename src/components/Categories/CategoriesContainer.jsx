@@ -6,7 +6,8 @@ import { getCategories, getJokeText } from "../../redux/main-reducer";
 const CategoriesContainer = ({ categories, getCategories, getJokeText }) => {
   useEffect(() => {
     getCategories();
-  });
+  }, []);
+
   return <Categories categories={categories} getJokeText={getJokeText} />;
 };
 
